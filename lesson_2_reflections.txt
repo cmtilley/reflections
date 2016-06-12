@@ -3,3 +3,15 @@ it creates the .git directory and sets up the enviroment to begin traking files 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 it has only the files you want to track changes in as part of project, while the working directory may have more files in it. It holds the changes you are making prior to them being entered in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Run commit diff and make sure there aren't multiple logical changes
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you are working on two features at the same time, or are correcting bugs in early code
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It incorporates the changes made in both branches into on branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It automates finding the changes and areas of conflict which could be very hard to do manually.
